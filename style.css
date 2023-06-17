@@ -1,0 +1,88 @@
+.customHeight {
+    height: 50rem;
+}
+
+.roundedIconBorder {
+    width: 5rem;
+    height: 5rem;
+}
+
+.custom-bg-header {
+    background: url('./img/forest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+}
+
+.custom-bg-website-left {
+    background: url('./img/tienko-dima.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 25rem;
+    border: 1px solid white;
+}
+
+.custom-bg-website-left:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.custom-bg-website-center {
+    background: url('./img/green-trabant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 25rem;
+    border: 1px solid white;
+}
+
+.custom-bg-website-center:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.custom-bg-website-right {
+    background: url('./img/forest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 25rem;
+    border: 1px solid white;
+}
+
+.custom-bg-website-right:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.custom-quote {
+    font-size: 15rem;
+}
+
+.custom-bg-middle {
+    background: url('./img/forest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color: rgb(221, 255, 255);
+}
